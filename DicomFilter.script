@@ -1,0 +1,4 @@
+!ImageType.contains("DOSE") * !ImageType.contains("PROTOCOL") *
+!SOPClassUID.equals("1.2.840.10008.5.1.4.1.1.88.11") * !SOPClassUID.equals("1.2.840.10008.5.1.4.1.1.88.22") *
+!SOPClassUID.equals("1.2.840.10008.5.1.4.1.1.88.33") * !SeriesDescription.contains("Report") *
+!ImageType.contains("DERIVED\SECONDARY\SCREEN SAVE") * !BurnedInAnnotation.equals("YES") * !(SOPClassUID.contains("1.2.840.10008.5.1.4.1.1.7") * ImageType.contains("SECONDARY"))

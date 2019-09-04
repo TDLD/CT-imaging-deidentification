@@ -6,8 +6,10 @@ M. Lunney
   21AUG2015 -original
   
   19JUN2018 -edited for GitHub
+  
+  04SEP2019 -fixed broken CTP hyperlink
 
-All images deidentified using [RSNA Clinical Trials Processor](https://www.rsna.org/ctp.aspx) (many thanks to John Perry for all of his support of this project).
+All images deidentified using [RSNA Clinical Trials Processor](http://mircwiki.rsna.org/index.php?title=CTP-The_RSNA_Clinical_Trial_Processor) (many thanks to John Perry for all of his support of this project).
 
 
 All `PatientID (0010,0020)` and `InstitutionName (0008,0080)` tags changed to correspond with ProTECT Public-Use Dataset (PUDs). FITBIR GUID used as `PatientName (0010,0010)`.
